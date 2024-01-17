@@ -1,1 +1,4 @@
 # Weather-Machine
+
+## Description
+This Arduino sketch creates a weather monitoring system utilizing various sensors and Bluetooth communication. The program interfaces with a BMP085 sensor to measure temperature, pressure, and altitude. Additionally, a DHT11 sensor captures humidity and temperature data. The collected information is transmitted via Bluetooth using the ArduinoBlue library, allowing users to access real-time weather data. The code includes an introductory message sent at startup and then continuously reads sensor values, sending them periodically to a connected device. This project provides a simple yet effective demonstration of integrating multiple sensors for weather monitoring using Arduino and Bluetooth technology. The setup includes libraries such as Wire, Adafruit_BMP085, SoftwareSerial, ArduinoBlue, and dht11.
